@@ -15,7 +15,7 @@ from data_process import partition_data
 from client import Client_Sub_S
 import torch.nn.functional as F
 import copy
-import xzf.MSCFL.weightsPrune as weightsPrune
+import weightsPrune as weightsPrune
 import os
 from sklearn.cluster import AgglomerativeClustering
 from sklearn.decomposition import TruncatedSVD

@@ -7,8 +7,6 @@ from torch.utils.data import DataLoader
 from scipy.spatial import distance
 from miscellaneous import get_args, print2log
 
-# from xzf.MSCFL.weightsPrune import *
-
 
 def dist_masks(m1, m2):
     """
